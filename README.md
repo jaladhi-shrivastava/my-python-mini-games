@@ -1,14 +1,14 @@
 # My Python Mini Games
 
 A collection of small Python games built for learning and fun.  
-Each game lives in its own folder with its own Python scripts and assets.  
-Click a game name below to jump to its folder and explore the code.
+Each game has its own folder with code and instructions.  
+Click the game name to explore its code on GitHub.
 
 ---
 
 ## 🎮 Games
 
-### 1. [Etch-a-Sketch Game](Etch-a-Sketch%20Game)
+### 1. [Etch-a-Sketch Game](https://github.com/jaladhi-shrivastava/my-python-mini-games/tree/main/Etch-a-Sketch%20Game)
 Draw shapes and patterns using your keyboard.
 
 **How to play:**
@@ -18,48 +18,56 @@ Draw shapes and patterns using your keyboard.
 
 ---
 
-### 2. [The Dot Painting Project](The%20Dot%20Painting%20Project)
-Create beautiful paintings inspired by Damien Hirst's dot art.
+### 2. [The Dot Painting Project](https://github.com/jaladhi-shrivastava/my-python-mini-games/tree/main/The%20Dot%20Painting%20Project)
+Create colorful paintings inspired by Damien Hirst's dot art.
 
 **How to play:**
 - Run the script.
-- Watch as the program randomly paints colored dots on the canvas.
-- Change color palettes in the code for new effects.
+- Watch as the program paints random colored dots on the canvas.
+- Change color palettes in the code for different effects.
 
 ---
 
-### 3. [The Quiz Game](The%20Quiz%20Game)
-Test your knowledge with a series of fun quiz questions.
+### 3. [The Quiz Game](https://github.com/jaladhi-shrivastava/my-python-mini-games/tree/main/Quiz%20Game)
+Test your knowledge with a set of fun quiz questions.
 
 **How to play:**
-- Run the main quiz script.
-- Answer the questions by typing your choice (usually A, B, C, or D).
+- Run the quiz script.
+- Answer each question by typing your choice (A, B, C, or D).
 - At the end, see your score and correct answers.
 
 ---
 
-### 4. [The Snake Game](The%20Snake%20Game)
-The classic Snake game with a modern Python twist.
+### 4. [The Snake Game](https://github.com/jaladhi-shrivastava/my-python-mini-games/tree/main/The%20Snake%20Game)
+The classic Snake game made in Python.
 
 **How to play:**
-- Run the main Python file.
+- Run the main file.
 - Use the **Arrow Keys** to control the snake.
-- Eat food to grow longer.
-- Avoid colliding with the walls or yourself.
+- Eat food to grow.
+- Avoid hitting the walls or yourself.
 
 ---
 
-### 5. [Others](Others)
-Miscellaneous small Python programs and experimental games.
+### 5. [Others](https://github.com/jaladhi-shrivastava/my-python-mini-games/tree/main/Others)
+A collection of small experimental Python programs:
+- **Dream Catcher**
+- **MoodBot**
+- **Turtle Race**
+
+**How to play:**
+- Open any script in the folder.
+- Run it in your Python environment.
+- Each program has its own set of interactions.
 
 ---
 
 ## 🛠 Requirements
 - Python 3.x
-- `turtle` module (usually included in Python)
-- `random` and `time` (standard Python libraries)
+- `turtle` module (comes with Python)
+- `random` and `time` modules (standard library)
 
-Some games may require additional libraries; check each folder’s scripts for `import` statements.
+Some games may require extra libraries; check each script’s imports.
 
 ---
 
@@ -67,6 +75,7 @@ Some games may require additional libraries; check each folder’s scripts for `
 1. Clone this repository:
    ```bash
    git clone https://github.com/jaladhi-shrivastava/my-python-mini-games.git
+
 2. Open the game folder you want to play.
 
 3. Run the main .py file in your terminal or IDE.
