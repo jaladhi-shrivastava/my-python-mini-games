@@ -33,7 +33,7 @@ Test your knowledge with a set of fun quiz questions.
 
 **How to play:**
 - Run the quiz script.
-- Answer each question by typing your choice (A, B, C, or D).
+- Answer each question by typing True or False.
 - At the end, see your score and correct answers.
 
 ---
@@ -51,9 +51,9 @@ The classic Snake game made in Python.
 
 ### 5. [Others](https://github.com/jaladhi-shrivastava/my-python-mini-games/tree/main/Others)
 A collection of small experimental Python programs:
-- **Dream Catcher**
-- **MoodBot**
-- **Turtle Race**
+- **Dream Catcher** – Collect all your dreams as notes with date and time.
+- **MoodBot** – A chatbot that responds to your mood with fun or supportive messages.
+- **Turtle Race** – Simulates a race between turtles where you bet on the winner.
 
 **How to play:**
 - Open any script in the folder.
