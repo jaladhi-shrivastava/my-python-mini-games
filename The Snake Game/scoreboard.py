@@ -7,6 +7,7 @@ class Scoreboard(Turtle):
     def __init__(self):
         super().__init__()
         self.score = 0
+        self.highscore = 0
         self.hideturtle()
         self.penup()
         self.pencolor("white")
@@ -23,3 +24,9 @@ class Scoreboard(Turtle):
         self.clear()
         self.goto(0,0)
         self.write(f"GAME OVER. \nSCORE: {self.score}", align=ALIGNMENT, font=FONT)
+
+    def display_highscore(self):
+        if self.score > self.highscore:
+            self.highscore = self.score
+        self.goto(0, 270)
+        self.write(f"Highest Score is: {self.highscore}", align= ALIGNMENT, font=FONT)

@@ -38,11 +38,13 @@ while game:
     if (snake.head.xcor() > 290 or snake.head.xcor() < -290
             or snake.head.ycor() > 290 or snake.head.ycor() < -290):
         score.game_over()
+        score.display_highscore()
         break
     #detect collision with body
     for body in snake.snake_body[1: ]:
         if snake.head.distance(body) < 10:
             score.game_over()
+            score.display_highscore()
             break
 
 
