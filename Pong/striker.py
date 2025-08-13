@@ -5,7 +5,7 @@ class Striker(Turtle):
     def __init__(self):
         super().__init__()
         self.goto(0,0)
-        self.shape("square")
+        self.shape("circle")
         self.color("white")
         self.penup()
         self.move_x = 10

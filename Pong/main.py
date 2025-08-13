@@ -31,7 +31,7 @@ score_limit = screen.numinput(
     prompt="Enter score limit. [5/9/11]: ",
     default=11,
     minval=5,
-    maxval=15
+    maxval=21
 )
 
 # Key bindings

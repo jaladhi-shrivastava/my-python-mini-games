@@ -61,5 +61,5 @@ class Scoreboard(Turtle):
         winner = "Right" if self.right_score > self.left_score else "Left"
         self.goto(0, 0)
         self.write(f"GAME OVER!\nThe winner is {winner}\nRight Score- {self.right_score}\nLeft Score- {self.left_score}",
-                   align=ALIGNMENT, font=("Arial", 16, "normal"))
+                   align=ALIGNMENT, font=("Arial", 18, "normal"))
         self.getscreen().update()

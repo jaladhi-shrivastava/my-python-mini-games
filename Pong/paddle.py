@@ -25,12 +25,12 @@ class Paddle(Turtle):
             self.goto(x=self.xcor(), y=new_y)
 
     def follow_ball(self, ball):
-        # Only move if the ball is coming towards the left side
+
         if ball.move_x < 0:
-            # Get vertical distance to the ball
+
             distance_y = ball.ycor() - self.ycor()
 
-            # Add a small reaction threshold (dead zone)
+
             if abs(distance_y) > 10:
                 # Limit movement speed so AI is beatable
                 move_amount = min(12, max(-12, distance_y))
