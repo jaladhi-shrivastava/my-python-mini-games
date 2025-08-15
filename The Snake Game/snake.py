@@ -34,6 +34,11 @@ class Snake:
             self.snake_body[squares].goto(new_x, new_y)
         self.head.forward(MOVE_DISTANCE)
 
+    def reset_snake(self):
+        for squares in self.snake_body:
+            squares.hideturtle()
+        self.snake_body.clear()
+
     def right(self):
         if self.head.heading() != LEFT:
             self.head.setheading(RIGHT)
