@@ -1,5 +1,6 @@
 
 from turtle import Turtle
+import random
 MOVE_DISTANCE = 20
 
 class Paddle(Turtle):
@@ -27,11 +28,10 @@ class Paddle(Turtle):
     def follow_ball(self, ball):
 
         if ball.move_x < 0:
-
             distance_y = ball.ycor() - self.ycor()
-
+            distance_y += random.randint(-15, 15)
 
             if abs(distance_y) > 10:
                 # Limit movement speed so AI is beatable
-                move_amount = min(12, max(-12, distance_y))
+                move_amount = min(4, max(-4, distance_y))
                 self.goto(self.xcor(), self.ycor() + move_amount)
