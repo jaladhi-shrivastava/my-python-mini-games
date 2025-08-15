@@ -46,10 +46,26 @@ The classic Snake game made in Python.
 - Use the **Arrow Keys** to control the snake.
 - Eat food to grow.
 - Avoid hitting the walls or yourself.
+---
+### 5. [Pong](https://github.com/jaladhi-shrivastava/my-python-mini-games/tree/main/Pong)
+A modern take on the classic arcade game, built entirely with Python’s `turtle` module.
 
+## Features
+- **Single Player Mode** — Face off against a beatable AI.
+- **Two Player Mode** — Play locally with a friend.
+- **Custom Score Limit** — Set the target score before the match starts.
+- **Clean Game Over Screen** — Displays winner and final scores.
+
+## Controls
+- **Right Paddle:** Up Arrow / Down Arrow  
+- **Left Paddle (2P Mode):** W / S
+
+## Requirements
+- Python 3.x  
+(No external libraries required)
 ---
 
-### 5. [Others](https://github.com/jaladhi-shrivastava/my-python-mini-games/tree/main/Others)
+### 6. [Others](https://github.com/jaladhi-shrivastava/my-python-mini-games/tree/main/Others)
 A collection of small experimental Python programs:
 - **Dream Catcher** – Collect all your dreams as notes with date and time.
 - **MoodBot** – A chatbot that responds to your mood with fun or supportive messages.
